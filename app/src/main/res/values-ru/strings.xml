@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FreshFridge</string>
+    <string name="all_food">продукты</string>
+    <string name="fridges">холодильник</string>
+    <string name="waste">просрочка</string>
+    <string name="fridge_list">Список холодильников</string>
+    <string name="to_buy_list">к покупке</string>
+    <string name="add_fridge">Добавить холодильник</string>
+    <string name="add_product">Добавить продукт</string>
+    <string name="delete_fridge">Удалить холодильник</string>
+    <string name="delete_product">Удалить продукт</string>
+    <string name="confirm">Принять</string>
+    <string name="cancel">Отмена</string>
+    <string name="empty_fridges">Список холодильников пуст</string>
+    <string name="empty_products_in_fridge">В этом холодильнике пусто</string>
+    <string name="empty_all_food">Вы не добавили никаких продуктов</string>
+    <string name="empty_waste">У вас нет просроченных продуктов</string>
+    <string name="empty_to_buy">Вы не добавили продуктов в список покупок</string>
+    <string name="product_count">Продуктов в холодильнике:</string>
+    <string name="cursor_product_subtitle_expiration_date">Годен до:</string>
+    <string name="cursor_product_subtitle_fridge">В холодильнике:</string>
+    <string name="dialog_add_fridge_title">Добавить холодильник</string>
+    <string name="dialog_add_fridge_msg">Введите название холодильника</string>
+    <string name="dialog_add_fridge_incorrect_name">Пожалуйста введите название холодильника</string>
+    <string name="dialog_add_product_title">Добавить холодильник</string>
+    <string name="dialog_add_product_msg">Введите название продукта</string>
+    <string name="dialog_add_product_expiration_date">Введите срок годности</string>
+    <string name="dialog_add_product_incorrect_name">Пожалуйста введите название продукта</string>
+    <string name="dialog_add_product_incorrect_expiration_date">Пожалуйста введите срок годности продукта</string>
+    <string name="dialog_delete_fridge_title">Удалить холодильники</string>
+    <string name="dialog_delete_fridge_msg">Удалить выбранные холодильники?</string>
+    <string name="dialog_delete_product_title">Удалить продукты</string>
+    <string name="dialog_delete_product_msg">Удалить выбранные продукты?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

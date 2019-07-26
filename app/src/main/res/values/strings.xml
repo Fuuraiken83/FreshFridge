@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FreshFridge</string>
+    <string name="all_food">All Food</string>
+    <string name="fridges">Fridges</string>
+    <string name="waste">Waste</string>
+    <string name="fridge_list">Fridge List</string>
+    <string name="to_buy_list">To Buy List</string>
+    <string name="add_fridge">Add Fridge</string>
+    <string name="add_product">Add Product</string>
+    <string name="delete_fridge">Delete Fridge</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="empty_fridges">There is no fridges</string>
+    <string name="empty_products_in_fridge">There is no products in this fridge</string>
+    <string name="empty_all_food">There is no food in your fridges</string>
+    <string name="empty_waste">There is no waste in your fridges</string>
+    <string name="empty_to_buy">There is no products in your shopping list</string>
+    <string name="product_count">Products in fridge:</string>
+    <string name="cursor_product_subtitle_expiration_date">Expiry date:</string>
+    <string name="cursor_product_subtitle_fridge">In fridge:</string>
+    <string name="dialog_add_fridge_title">Add fridge</string>
+    <string name="dialog_add_fridge_msg">Input fridge name here</string>
+    <string name="dialog_add_fridge_incorrect_name">Please type the fridge name</string>
+    <string name="dialog_add_product_title">Add product</string>
+    <string name="dialog_add_product_msg">Type product name here</string>
+    <string name="dialog_add_product_expiration_date">Input expiration date of the product</string>
+    <string name="dialog_add_product_incorrect_name">Please type the product name</string>
+    <string name="dialog_add_product_incorrect_expiration_date">Please select expiration date of the product</string>
+    <string name="dialog_delete_fridge_title">Delete fridges</string>
+    <string name="dialog_delete_fridge_msg">Do you want to delete these fridges?</string>
+    <string name="dialog_delete_product_title">Delete products</string>
+    <string name="dialog_delete_product_msg">Do you want to delete these products?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

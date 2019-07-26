@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+
+
+    <LinearLayout
+        android:id="@+id/item_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LABEL"
+            android:textSize="27sp"
+            android:textColor="@color/colorPrimary">
+        </TextView>
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="expiration date: 11.09.2004"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary">
+        </TextView>
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/isChecked"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:visibility="invisible"
+        />
+</LinearLayout>
