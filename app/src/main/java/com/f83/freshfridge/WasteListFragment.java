@@ -24,7 +24,7 @@ public class WasteListFragment extends ListFragment {
         Bundle bundle = new Bundle();
         bundle.putInt("visibility",visibility);
         String query = "SELECT * FROM " + DBTables.Product.TABLE_NAME
-                + " WHERE " + "strftime('%Y-%m-%d', " + DBTables.Product.COLUMN_EXPIRATION_DATE + ") - strftime('%Y-%m-%d','now') <= 0";
+                + " WHERE " + "strftime('%Y-%m-%d', " + DBTables.Product.COLUMN_EXPIRATION_DATE + ") <= strftime('%Y-%m-%d','now')";
         bundle.putString("query",query);
         WasteListFragment fragment = new WasteListFragment();
         fragment.setArguments(bundle);
